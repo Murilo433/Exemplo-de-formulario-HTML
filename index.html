@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-Br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Area reservada</title>
 </head>
+
 <body>
-    
+    <h1>Area reservada</h1>
+    <form nome="-login" method="get">
+        <fieldset>
+            <legend>Login</legend>
+            <label>E-mail</label>
+            <input type="email" id="email" name="email" required maxlength="10" size="50" placeholder="E-mail" /><br>
+            <label>Senha:</label>
+            <input type="password" id="senha" name="senha" required maxlength="10" title="Preencha" size="50"
+                placeholder="Password" /><br>
+            <input type="checkbox" id="lembrar" name="lembrar" checked />
+            <!-- Lembrar usuário? -->
+        </fieldset>
+        <input type="submit" value="login" />
+        <input type="reset" value="limpar" />
+    </form>
+    <a href="novo.html">Ainda não é usuário</a>
 </body>
+
 </html>
